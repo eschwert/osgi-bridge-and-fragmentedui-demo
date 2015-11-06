@@ -274,7 +274,7 @@
 							alo.util.bourbon;version="${vaadin.version}",VAADIN.themes.valo.util.bourbon.addo
 							ns;version="${vaadin.version}",VAADIN.themes.valo.util.bourbon.css3;version="${vaadin.version}",VAADIN.themes.valo.util.bourbon.functions;version="${vaadin.version}",VAADIN.t
 							hemes.valo.util.bourbon.helpers;version="${vaadin.version}",VAADIN.themes.valo.ut
-							il.bourbon.settings;version="${vaadin.version}", com.vaadin.server;version="${vaadin.version}"</Import-Package>
+							il.bourbon.settings;version="${vaadin.version}"</Import-Package>
 					</instructions>
 				</configuration>
 				<executions>
