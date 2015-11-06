@@ -10,7 +10,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<vaadin.version>7.3.5</vaadin.version>
+		<vaadin.version>7.5.8</vaadin.version>
 	</properties>
 	<repositories>
 		<repository>
@@ -133,7 +133,7 @@
 							*,VAADIN;version="${vaadin.version}",VAADIN.widgetsets;version="${vaadin.version}",VAADIN.widgetsets.co
 							m.vaadin.DefaultWidgetSet;version="${vaadin.version}",VAADIN.widgetsets.com.vaadi
 							n.DefaultWidgetSet.deferredjs;version="${vaadin.version}",VAADIN.widgetsets.com.v
-							aadin.DefaultWidgetSet.deferredjs.D79FEF925099E143C6D79765FF625E6E;ve
+							aadin.DefaultWidgetSet.deferredjs.5B50C83E7ED9BD125AD32D0A39B40D5C;ve
 							rsion="${vaadin.version}",VAADIN.themes;version="${vaadin.version}",VAADIN.themes.base;versi
 							on="${vaadin.version}",VAADIN.themes.base.absolutelayout;version="${vaadin.version}",VAADIN.t
 							hemes.base.accordion;version="${vaadin.version}",VAADIN.themes.base.browserframe;
@@ -240,8 +240,8 @@
 							ersion="${vaadin.version}",VAADIN.themes.runo.datefield.img;version="${vaadin.version}",VAADI
 							N.themes.runo.formlayout;version="${vaadin.version}",VAADIN.themes.runo.gridlayou
 							t;version="${vaadin.version}",VAADIN.themes.runo.icons;version="${vaadin.version}",VAADIN.the
-							mes.runo.icons.16;version="${vaadin.version}",VAADIN.themes.runo.icons.32;version
-							="${vaadin.version}",VAADIN.themes.runo.icons.64;version="${vaadin.version}",VAADIN.themes.ru
+							mes.runo.icons.icons16;version="${vaadin.version}",VAADIN.themes.runo.icons.icons32;version
+							="${vaadin.version}",VAADIN.themes.runo.icons.icons64;version="${vaadin.version}",VAADIN.themes.ru
 							no.inlinedatefield;version="${vaadin.version}",VAADIN.themes.runo.label;version="
 							${vaadin.version}",VAADIN.themes.runo.link;version="${vaadin.version}",VAADIN.themes.runo.men
 							ubar;version="${vaadin.version}",VAADIN.themes.runo.notification;version="${vaadin.version}",
@@ -274,7 +274,7 @@
 							alo.util.bourbon;version="${vaadin.version}",VAADIN.themes.valo.util.bourbon.addo
 							ns;version="${vaadin.version}",VAADIN.themes.valo.util.bourbon.css3;version="${vaadin.version}",VAADIN.themes.valo.util.bourbon.functions;version="${vaadin.version}",VAADIN.t
 							hemes.valo.util.bourbon.helpers;version="${vaadin.version}",VAADIN.themes.valo.ut
-							il.bourbon.settings;version="${vaadin.version}"</Import-Package>
+							il.bourbon.settings;version="${vaadin.version}", com.vaadin.server;version="${vaadin.version}"</Import-Package>
 					</instructions>
 				</configuration>
 				<executions>
